@@ -1,0 +1,7 @@
+Modifications to ImageMagick:
+
+1) Copy and Paste ghostscript applications into ImageMagick directory (ie. gswin64, gsdll64, etc.)
+2) Modify delegate.xml path to point to ghostscript file (change @PSDelegate@ to gswin64c.exe)
+3) Copy and Paste fonts folder into ImageMagick directory
+4) Modify type-ghostscript.xml ghostscript path to the fonts folder (change @ghostscript_font_path@ to \fonts\)
+5) Copy and Paste IccProfiles folder into ImageMagick directory
